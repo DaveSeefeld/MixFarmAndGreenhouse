@@ -12,9 +12,9 @@
 
         <ImageView
             android:id="@+id/banner_image_view"
+            style="@style/BannerImageView"
             android:contentDescription="@string/bannerImageDescription"
-            android:src="@drawable/greenhouse"
-            style="@style/BannerImageView" />
+            android:src="@drawable/greenhouse" />
 
         <TextView
             android:id="@+id/company_text_view"
