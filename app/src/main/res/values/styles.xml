@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="InfoTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_medium</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medium</item>
+        <item name="android:layout_marginRight">@dimen/spacing_medium</item>
+        <item name="android:drawablePadding">@dimen/spacing_medium</item>
+        <item name="android:drawableTint">@color/primaryDarkTextColor</item>
+        <item name="android:textColor">@color/primaryDarkTextColor</item>
+        <item name="android:textColorLink">@color/primaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/material_text_body1</item>
+    </style>
+
+    <style name="TitleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+        <item name="android:textSize">@dimen/material_text_h6</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BannerImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
